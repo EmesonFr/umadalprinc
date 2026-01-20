@@ -1,9 +1,8 @@
 body{
     text-align: center;
-    min-height: 100vh;
-    background-image: url("file:///C:/Users/JESUS%20TE%20AMA/Downloads/images.jfif");
-    background-size: cover;
-    background-position: center;
+  text-align: center;
+    background-image: url("images.jfif");
+    background-repeat: repeat;
    
 }
 
@@ -25,5 +24,6 @@ p{
     font-family: Arial;
     color: aliceblue;
 }
+
 
 
