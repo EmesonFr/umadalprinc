@@ -3,6 +3,7 @@ body{
     min-height: 100vh;
     background-image: url("images.jfif");
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
 }
 
 h1{
@@ -19,25 +20,57 @@ h1{
     height: 900px;
     border: none;
 }
+
+
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
 .caixa-texto {
-    background: rgb(255, 255, 255);
-    padding: 25px;
-    border-radius: 16px;
+    background: rgba(0, 60, 140, 0.75); /* azul transparente */
+    max-width: 900px;
+    width: 100%;
+
+    padding: 35px;
+    border-radius: 18px;
     text-align: center;
-    max-width: 850px;
-    width: calc(100
+}
+
+.caixa-texto h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .caixa-texto p {
-    margin: 0;
+    color: #ffffff;
     font-size: 20px;
-    color: #ffffff;                  /* dourado combina com o logo */
-    line-height: 1.5;
-    text-align: center;
+    line-height: 1.6;
 }
 
+@media (max-width: 600px) {
 
+    body {
+        align-items: flex-start;
+    }
 
+    .caixa-texto {
+        margin-top: 80px;
+        padding: 22px;
+        border-radius: 14px;
+    }
 
+    .caixa-texto h1 {
+        font-size: 24px;
+    }
 
+    .caixa-texto p {
+        font-size: 16px;
+    }
+}
 
