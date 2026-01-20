@@ -20,11 +20,12 @@ h1{
     border: none;
 }
 .caixa-texto {
-    display: inline-block;          
-    background: rgba(0, 45, 143, 0.55); 
-    padding: 20px 25px;             
-    border-radius: 15px;            
-    max-width: 800px;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px;
+    border-radius: 16px;
+
+    max-width: 850px;
+    width: calc(100
 }
 
 .caixa-texto p {
@@ -33,5 +34,6 @@ h1{
     color: #ffffff;                  /* dourado combina com o logo */
     line-height: 1.5;
 }
+
 
 
