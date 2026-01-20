@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-    color: rgba(37, 0, 247, 0.55);
+    color: rgb(255, 255, 255);
 }
 .formulario {
     max-width: 800px;
@@ -20,7 +20,7 @@ h1{
     border: none;
 }
 .caixa-texto {
-    background: rgba(0, 0, 0, 0.55);
+    background: rgb(255, 255, 255);
     padding: 25px;
     border-radius: 16px;
 
@@ -34,6 +34,7 @@ h1{
     color: #ffffff;                  /* dourado combina com o logo */
     line-height: 1.5;
 }
+
 
 
 
