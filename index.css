@@ -1,9 +1,8 @@
 body{
     text-align: center;
-  text-align: center;
+    min-height: 100vh;
     background-image: url("images.jfif");
-    background-repeat: repeat;
-   
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
@@ -12,6 +11,7 @@ h1{
 .formulario {
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .formulario iframe {
@@ -19,11 +19,19 @@ h1{
     height: 900px;
     border: none;
 }
-p{ 
-    font-size: 20px;
-    font-family: Arial;
-    color: aliceblue;
+.caixa-texto {
+    display: inline-block;          
+    background: rgba(0, 45, 143, 0.55); 
+    padding: 20px 25px;             
+    border-radius: 15px;            
+    max-width: 800px;
 }
 
+.caixa-texto p {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;                  /* dourado combina com o logo */
+    line-height: 1.5;
+}
 
 
